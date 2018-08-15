@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RWA Violations</title>
+  <style>
+    .report {
+      padding: 10px;
+      border: 1px solid black;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .violations {
+      background-color: rgba(255,0,0,0.2);
+    }
+
+    .needs-review {
+      background-color: rgba(255,250,205, 0.6)
+    }
+
+    input {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Home</h1>
+  <div class="url"></div>
+  <p><a href="../index.html">Back to Table of Contents</a></p>
+  <div class="violations report">
+    <h2>Violations:</h2>
+    <p>This section contains things that must be addressed.</p>
+  </div>
+
+  <div class="needs-review report">
+    <h2>Needs Review:</h2>
+    <p>This section contains things that could not be fully addressed by aXe and should be checked by a human.</p>
+  </div>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
+    <script src="home.json"></script>
+    <script src="home.js"></script>
+</body>
+</html>

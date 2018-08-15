@@ -1,0 +1,3043 @@
+[
+  {
+    "inapplicable": [
+      {
+        "description": "Ensures every accesskey attribute value is unique",
+        "help": "accesskey attribute value must be unique",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/accesskeys?application=webdriverjs",
+        "id": "accesskeys",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "best-practice",
+          "cat.keyboard"
+        ]
+      },
+      {
+        "description": "Ensures <area> elements of image maps have alternate text",
+        "help": "Active <area> elements must have alternate text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/area-alt?application=webdriverjs",
+        "id": "area-alt",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures ARIA attributes are allowed for an element's role",
+        "help": "Elements must only use allowed ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-allowed-attr?application=webdriverjs",
+        "id": "aria-allowed-attr",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag411",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+        "help": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-dpub-role-fallback?application=webdriverjs",
+        "id": "aria-dpub-role-fallback",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures all ARIA attributes have valid values",
+        "help": "ARIA attributes must conform to valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-valid-attr-value?application=webdriverjs",
+        "id": "aria-valid-attr-value",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131",
+          "wcag411",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
+        "help": "ARIA attributes must conform to valid names",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-valid-attr?application=webdriverjs",
+        "id": "aria-valid-attr",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag411"
+        ]
+      },
+      {
+        "description": "Ensures <audio> elements have captions",
+        "help": "<audio> elements must have a captions track",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/audio-caption?application=webdriverjs",
+        "id": "audio-caption",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.time-and-media",
+          "wcag2a",
+          "wcag121",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures <blink> elements are not used",
+        "help": "<blink> elements are deprecated and must not be used",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/blink?application=webdriverjs",
+        "id": "blink",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.time-and-media",
+          "wcag2a",
+          "wcag222",
+          "section508",
+          "section508.22.j"
+        ]
+      },
+      {
+        "description": "Ensures related <input type=\"checkbox\"> elements have a group and that the group designation is consistent",
+        "help": "Checkbox inputs with the same name attribute value must be part of a group",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/checkboxgroup?application=webdriverjs",
+        "id": "checkboxgroup",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.forms",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures <dl> elements are structured correctly",
+        "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/definition-list?application=webdriverjs",
+        "id": "definition-list",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <dt> and <dd> elements are contained by a <dl>",
+        "help": "<dt> and <dd> elements must be contained by a <dl>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/dlitem?application=webdriverjs",
+        "id": "dlitem",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <iframe> and <frame> elements contain the axe-core script",
+        "help": "Frames must be tested with axe-core",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/frame-tested?application=webdriverjs",
+        "id": "frame-tested",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "review-item"
+        ]
+      },
+      {
+        "description": "Ensures <iframe> and <frame> elements contain a unique title attribute",
+        "help": "Frames must have a unique title attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/frame-title-unique?application=webdriverjs",
+        "id": "frame-title-unique",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+        "help": "Frames must have title attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/frame-title?application=webdriverjs",
+        "id": "frame-title",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      },
+      {
+        "description": "Ensures <input type=\"image\"> elements have alternate text",
+        "help": "Image buttons must have alternate text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/input-image-alt?application=webdriverjs",
+        "id": "input-image-alt",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures that every form element is not solely labeled using the title or aria-describedby attributes",
+        "help": "Form elements should have a visible label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/label-title-only?application=webdriverjs",
+        "id": "label-title-only",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.forms",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures every form element has a label",
+        "help": "Form elements must have labels",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/label?application=webdriverjs",
+        "id": "label",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag332",
+          "wcag131",
+          "section508",
+          "section508.22.n"
+        ]
+      },
+      {
+        "description": "Ensures presentational <table> elements do not use <th>, <caption> elements or the summary attribute",
+        "help": "Layout tables must not use data table elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/layout-table?application=webdriverjs",
+        "id": "layout-table",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.semantics",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures that lists are structured correctly",
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/list?application=webdriverjs",
+        "id": "list",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <li> elements are used semantically",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/listitem?application=webdriverjs",
+        "id": "listitem",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <marquee> elements are not used",
+        "help": "<marquee> elements are deprecated and must not be used",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/marquee?application=webdriverjs",
+        "id": "marquee",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag222"
+        ]
+      },
+      {
+        "description": "Ensures <meta http-equiv=\"refresh\"> is not used",
+        "help": "Timed refresh must not exist",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/meta-refresh?application=webdriverjs",
+        "id": "meta-refresh",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.time",
+          "wcag2a",
+          "wcag2aaa",
+          "wcag221",
+          "wcag224",
+          "wcag325"
+        ]
+      },
+      {
+        "description": "Ensures <object> elements have alternate text",
+        "help": "<object> elements must have alternate text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/object-alt?application=webdriverjs",
+        "id": "object-alt",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures related <input type=\"radio\"> elements have a group and that the group designation is consistent",
+        "help": "Radio inputs with the same name attribute value must be part of a group",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/radiogroup?application=webdriverjs",
+        "id": "radiogroup",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.forms",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures the scope attribute is used correctly on tables",
+        "help": "scope attribute should be used correctly",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/scope-attr-valid?application=webdriverjs",
+        "id": "scope-attr-valid",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.tables",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures that server-side image maps are not used",
+        "help": "Server-side image maps must not be used",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/server-side-image-map?application=webdriverjs",
+        "id": "server-side-image-map",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag211",
+          "section508",
+          "section508.22.f"
+        ]
+      },
+      {
+        "description": "Ensures tabindex attribute values are not greater than 0",
+        "help": "Elements should not have tabindex greater than zero",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/tabindex?application=webdriverjs",
+        "id": "tabindex",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensure that tables do not have the same summary and caption",
+        "help": "The <caption> element should not contain the same text as the summary attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/table-duplicate-name?application=webdriverjs",
+        "id": "table-duplicate-name",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.tables",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensure that each cell in a table using the headers refers to another cell in that table",
+        "help": "All cells in a table element that use the headers attribute must only refer to other cells of that same table",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/td-headers-attr?application=webdriverjs",
+        "id": "td-headers-attr",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.tables",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g"
+        ]
+      },
+      {
+        "description": "Ensure that each table header in a data table refers to data cells",
+        "help": "All th elements and elements with role=columnheader/rowheader must have data cells they describe",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/th-has-data-cells?application=webdriverjs",
+        "id": "th-has-data-cells",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.tables",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g"
+        ]
+      },
+      {
+        "description": "Ensures lang attributes have valid values",
+        "help": "lang attribute must have a valid value",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/valid-lang?application=webdriverjs",
+        "id": "valid-lang",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.language",
+          "wcag2aa",
+          "wcag312"
+        ]
+      },
+      {
+        "description": "Ensures <video> elements have captions",
+        "help": "<video> elements must have captions",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/video-caption?application=webdriverjs",
+        "id": "video-caption",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag122",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures <video> elements have audio descriptions",
+        "help": "<video> elements must have an audio description track",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/video-description?application=webdriverjs",
+        "id": "video-description",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2aa",
+          "wcag125",
+          "section508",
+          "section508.22.b"
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/color-contrast?application=webdriverjs",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 1,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "14.1pt",
+                  "fontWeight": "normal",
+                  "missingData": "equalRatio"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<p class=\"text-subtitle aos-init aos-animate\" data-aos=\"fade-up\">We are a nationwide cooperative of financial professionals with a passion for educating pre-retirees and those in retirement.</p>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              ".text-subtitle.aos-animate[data-aos=\"fade-up\"]"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 1,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "10.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "equalRatio"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<p class=\"text-paragraph aos-init aos-animate\" data-aos=\"fade-up\">",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              ".text-paragraph.aos-animate[data-aos=\"fade-up\"]"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 1,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "10.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "equalRatio"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a class=\"scroll-down aos-init aos-animate\" href=\"#meet-founders\" data-aos=\"fade-up\">Meet our founders</a>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              ".scroll-down"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "contrastRatio": 0,
+                  "expectedContrastRatio": "3:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "19.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "bgImage"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background image",
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"about-leadership about-jason-wenk content\" id=\"meet-founders\">",
+                    "target": [
+                      "#meet-founders"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<h2>Jason Wenk</h2>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "#meet-founders > section > h2"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "contrastRatio": 0,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "14.1pt",
+                  "fontWeight": "normal",
+                  "missingData": "bgImage"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background image",
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"about-leadership about-jason-wenk content\" id=\"meet-founders\">",
+                    "target": [
+                      "#meet-founders"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<p class=\"text-subtitle\">Jason began his career on Wall Street as one of the youngest advisors at Morgan Stanley. After seeing first-hand how broken the financial industry had become, he founded his own financial advisory firm in 2005.</p>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "#meet-founders > section > .text-subtitle"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "contrastRatio": 0,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "10.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "bgImage"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background image",
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"about-leadership about-jason-wenk content\" id=\"meet-founders\">",
+                    "target": [
+                      "#meet-founders"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<p class=\"text-paragraph\">He also pioneered algorithm-based portfolios crafted with proven academic formulas. This approach offered previously exclusive portfolio strategies to a broader range of investors.</p>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "#meet-founders > section > .text-paragraph:nth-child(3)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "contrastRatio": 0,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "10.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "bgImage"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background image",
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"about-leadership about-jason-wenk content\" id=\"meet-founders\">",
+                    "target": [
+                      "#meet-founders"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<p class=\"text-paragraph\">The portfolios he developed later became known as FormulaFolios, now offered through his firm FormulaFolio Investments. Today he oversees the management of over $2.3 billion as the CEO and Chief Investment Strategist.</p>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "#meet-founders > section > .text-paragraph:nth-child(4)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 1,
+                  "expectedContrastRatio": "3:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "19.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "equalRatio"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<blockquote class=\"quote-text aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"150\">",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "blockquote"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 1,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "10.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "equalRatio"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<p class=\"attribution aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"150\">\n        —Jason Wenk, Chairman\n      </p>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              ".attribution"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "contrastRatio": 0,
+                  "expectedContrastRatio": "3:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "19.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "bgImage"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background image",
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"about-leadership about-rick-wes-white content\">",
+                    "target": [
+                      ".about-rick-wes-white"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<h2>Rick &amp; Wes White</h2>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              ".about-rick-wes-white > section > h2"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "contrastRatio": 0,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "14.1pt",
+                  "fontWeight": "normal",
+                  "missingData": "bgImage"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background image",
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"about-leadership about-rick-wes-white content\">",
+                    "target": [
+                      ".about-rick-wes-white"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<p class=\"text-subtitle\">Rick and Wes formed The Triangle Adult Learning Center after seeing the critical state of many investors nearing retirement. The center develops comprehensive courses geared toward retirement planning and investing.</p>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              ".about-rick-wes-white > section > .text-subtitle"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "contrastRatio": 0,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "10.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "bgImage"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background image",
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"about-leadership about-rick-wes-white content\">",
+                    "target": [
+                      ".about-rick-wes-white"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<p class=\"text-paragraph\">As the owners of Patriot Wealth, Rick and Wes have helped hundreds of individuals find a comfortable retirement in their home state of North Carolina.</p>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              ".about-rick-wes-white > section > .text-paragraph:nth-child(3)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "contrastRatio": 0,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "10.2pt",
+                  "fontWeight": "normal",
+                  "missingData": "bgImage"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background image",
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"about-leadership about-rick-wes-white content\">",
+                    "target": [
+                      ".about-rick-wes-white"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<p class=\"text-paragraph\">",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              ".about-rick-wes-white > section > .text-paragraph:nth-child(4)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 1,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "8.4pt",
+                  "fontWeight": "normal",
+                  "missingData": "equalRatio"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"aos-init aos-animate\" data-aos=\"fade-up\" data-aos-anchor-placement=\"top-bottom\">",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "div[data-aos-anchor-placement=\"top-bottom\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    ],
+    "passes": [
+      {
+        "description": "Ensures aria-hidden='true' is not present on the document body.",
+        "help": "aria-hidden='true' must not be present on the document body",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-hidden-body?application=webdriverjs",
+        "id": "aria-hidden-body",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-hidden-body",
+                "impact": "critical",
+                "message": "No aria-hidden attribute is present on document body",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<body class=\"page-template page-template-page-leadership page-template-page-leadership-php page page-id-108\" data-aos-easing=\"ease-out-quart\" data-aos-duration=\"300\" data-aos-delay=\"0\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "body"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+        "help": "Required ARIA attributes must be provided",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-required-attr?application=webdriverjs",
+        "id": "aria-required-attr",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-attr",
+                "impact": "critical",
+                "message": "All required ARIA attributes are present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img class=\"title-image\" src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/leadership-banner.jpg\" alt=\"\" role=\"presentation\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".title-image"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-attr",
+                "impact": "critical",
+                "message": "All required ARIA attributes are present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/quote-icon.svg\" alt=\"\" class=\"quote-icon aos-init aos-animate\" data-aos=\"fade-up\" role=\"presentation\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".quote-icon"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag411",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures elements with an ARIA role that require child roles contain them",
+        "help": "Certain ARIA roles must contain particular children",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-required-children?application=webdriverjs",
+        "id": "aria-required-children",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-children",
+                "impact": "critical",
+                "message": "Required ARIA children are present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img class=\"title-image\" src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/leadership-banner.jpg\" alt=\"\" role=\"presentation\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".title-image"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-children",
+                "impact": "critical",
+                "message": "Required ARIA children are present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/quote-icon.svg\" alt=\"\" class=\"quote-icon aos-init aos-animate\" data-aos=\"fade-up\" role=\"presentation\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".quote-icon"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+        "help": "Certain ARIA roles must be contained by particular parents",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-required-parent?application=webdriverjs",
+        "id": "aria-required-parent",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-parent",
+                "impact": "critical",
+                "message": "Required ARIA parent role present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img class=\"title-image\" src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/leadership-banner.jpg\" alt=\"\" role=\"presentation\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".title-image"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-parent",
+                "impact": "critical",
+                "message": "Required ARIA parent role present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/quote-icon.svg\" alt=\"\" class=\"quote-icon aos-init aos-animate\" data-aos=\"fade-up\" role=\"presentation\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".quote-icon"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures all elements with a role attribute use a valid value",
+        "help": "ARIA roles used must conform to valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/aria-roles?application=webdriverjs",
+        "id": "aria-roles",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [],
+            "html": "<img class=\"title-image\" src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/leadership-banner.jpg\" alt=\"\" role=\"presentation\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "invalidrole",
+                "impact": "critical",
+                "message": "ARIA role is valid",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "abstractrole",
+                "impact": "serious",
+                "message": "Abstract roles are not used",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".title-image"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<img src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/quote-icon.svg\" alt=\"\" class=\"quote-icon aos-init aos-animate\" data-aos=\"fade-up\" role=\"presentation\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "invalidrole",
+                "impact": "critical",
+                "message": "ARIA role is valid",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "abstractrole",
+                "impact": "serious",
+                "message": "Abstract roles are not used",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".quote-icon"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131",
+          "wcag411",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/button-name?application=webdriverjs",
+        "id": "button-name",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "Menu Close Menu",
+                "id": "button-has-visible-text",
+                "impact": "critical",
+                "message": "Element has inner text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button class=\"mobile-menu-icon\" id=\"menu-toggle\">\n        <span class=\"open-icon\">Menu</span>\n        <span class=\"close-icon\"><span class=\"sr-only\">Close Menu</span></span>\n      </button>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "#menu-toggle"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+        "help": "Page must have means to bypass repeated blocks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/bypass?application=webdriverjs",
+        "id": "bypass",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "internal-link-present",
+                "impact": "serious",
+                "message": "Valid skip link found",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "header-present",
+                "impact": "serious",
+                "message": "Page has a header",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "landmark",
+                "impact": "serious",
+                "message": "Page has a landmark region",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.keyboard",
+          "wcag2a",
+          "wcag241",
+          "section508",
+          "section508.22.o"
+        ]
+      },
+      {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/color-contrast?application=webdriverjs",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 6.03,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#57656b",
+                  "fontSize": "12.0pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 6.03",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<span class=\"open-icon\">Menu</span>",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".open-icon"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#0d2b38",
+                  "contrastRatio": 14.79,
+                  "expectedContrastRatio": "3:1",
+                  "fgColor": "#ffffff",
+                  "fontSize": "27.0pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 14.79",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h1 class=\"entry-title\">Our <br>Leadership</h1>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "h1"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ebebeb",
+                  "contrastRatio": 12.4,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#0d2b38",
+                  "fontSize": "11.4pt",
+                  "fontWeight": "bold"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 12.4",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a href=\"https://retirementwealthacademy.com/courses\">Find a class near you</a>",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".find-a-class > a"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      },
+      {
+        "description": "Ensures each HTML document contains a non-empty <title> element",
+        "help": "Documents must have <title> element to aid in navigation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/document-title?application=webdriverjs",
+        "id": "document-title",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "doc-has-title",
+                "impact": "serious",
+                "message": "Document has a non-empty <title> element",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag242"
+        ]
+      },
+      {
+        "description": "Ensures every id attribute value is unique",
+        "help": "id attribute value must be unique",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=webdriverjs",
+        "id": "duplicate-id",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "retirement-wealth-academy-style-css",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<link rel=\"stylesheet\" id=\"retirement-wealth-academy-style-css\" href=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/style.css?ver=4.9.8\" type=\"text/css\" media=\"all\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#retirement-wealth-academy-style-css"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "masthead",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<header id=\"masthead\" class=\"site-header\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#masthead"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "logo-link",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a id=\"logo-link\" href=\"https://retirementwealthacademy.com/\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#logo-link"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "logo",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img id=\"logo\" src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/retirement-wealth-academy_logo.svg\" alt=\"Retirement Wealth Academy - Scientia est Potentia: Educate, Empower, Grow\" title=\"Retirement Wealth Academy\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#logo"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "site-navigation",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<nav id=\"site-navigation\" class=\"main-navigation navigation-container\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#site-navigation"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "menu-toggle",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button class=\"mobile-menu-icon\" id=\"menu-toggle\">\n        <span class=\"open-icon\">Menu</span>\n        <span class=\"close-icon\"><span class=\"sr-only\">Close Menu</span></span>\n      </button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#menu-toggle"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "menu-list",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<ul id=\"menu-list\" class=\"navigation-list\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#menu-list"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-183",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-183\" class=\"main-menu-item menu-item-depth-0 menu-parent-disabled menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children aos-init aos-animate\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-183"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-182",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-182\" class=\"sub-menu-item menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page aos-init aos-animate\"><a href=\"https://retirementwealthacademy.com/our-purpose/\" class=\"hover-underline menu-link sub-menu-link\">Our Purpose</a></li>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-182"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-143",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-143\" class=\"sub-menu-item menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-108 current_page_item aos-init aos-animate\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-143"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-142",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-142\" class=\"main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page aos-init aos-animate\"><a href=\"https://retirementwealthacademy.com/frequently-asked-questions/\" class=\"hover-underline menu-link main-menu-link\">FAQ</a></li>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-142"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-141",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-141\" class=\"main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page aos-init aos-animate\"><a href=\"https://retirementwealthacademy.com/contact-us/\" class=\"hover-underline menu-link main-menu-link\">Contact Us</a></li>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-141"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-184",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-184\" class=\"main-menu-item menu-item-depth-0 menu-parent-disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children aos-init aos-animate\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-184"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-140",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-140\" class=\"sub-menu-item menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page aos-init aos-animate\"><a href=\"https://retirementwealthacademy.com/our-courses/new-reality/\" class=\"hover-underline menu-link sub-menu-link\">New Reality</a></li>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-140"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-139",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-139\" class=\"sub-menu-item menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page aos-init aos-animate\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-139"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "nav-menu-item-422",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<li data-aos=\"fade\" id=\"nav-menu-item-422\" class=\"main-menu-item menu-item-depth-0 menu-register menu-item menu-item-type-post_type_archive menu-item-object-courses aos-init aos-animate\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#nav-menu-item-422"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "content",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div id=\"content\" class=\"site-content\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#content"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "primary",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div id=\"primary\" class=\"content-area\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#primary"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "main",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<main id=\"main\" class=\"site-main\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#main"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "meet-founders",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"about-leadership about-jason-wenk content\" id=\"meet-founders\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#meet-founders"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      },
+      {
+        "description": "Ensures headings have discernible text",
+        "help": "Headings must not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/empty-heading?application=webdriverjs",
+        "id": "empty-heading",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h1 class=\"entry-title\">Our <br>Leadership</h1>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "h1"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h2>Jason Wenk</h2>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#meet-founders > section > h2"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h2>Rick &amp; Wes White</h2>",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".about-rick-wes-white > section > h2"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures the order of headings is semantically correct",
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/heading-order?application=webdriverjs",
+        "id": "heading-order",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": 1,
+                "id": "heading-order",
+                "impact": "moderate",
+                "message": "Heading order valid",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h1 class=\"entry-title\">Our <br>Leadership</h1>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "h1"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": 2,
+                "id": "heading-order",
+                "impact": "moderate",
+                "message": "Heading order valid",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h2>Jason Wenk</h2>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#meet-founders > section > h2"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": 2,
+                "id": "heading-order",
+                "impact": "moderate",
+                "message": "Heading order valid",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h2>Rick &amp; Wes White</h2>",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".about-rick-wes-white > section > h2"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures every HTML document has a lang attribute",
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/html-has-lang?application=webdriverjs",
+        "id": "html-has-lang",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-lang",
+                "impact": "serious",
+                "message": "The <html> element has a lang attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311"
+        ]
+      },
+      {
+        "description": "Ensures the lang attribute of the <html> element has a valid value",
+        "help": "<html> element must have a valid value for the lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/html-lang-valid?application=webdriverjs",
+        "id": "html-lang-valid",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "valid-lang",
+                "impact": "serious",
+                "message": "Value of lang attribute is included in the list of valid languages",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311"
+        ]
+      },
+      {
+        "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+        "help": "Images must have alternate text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/image-alt?application=webdriverjs",
+        "id": "image-alt",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-alt",
+                "impact": "critical",
+                "message": "Element has an alt attribute",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "non-empty-title",
+                "impact": "serious",
+                "message": "Element has a title attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img id=\"logo\" src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/retirement-wealth-academy_logo.svg\" alt=\"Retirement Wealth Academy - Scientia est Potentia: Educate, Empower, Grow\" title=\"Retirement Wealth Academy\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#logo"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-alt",
+                "impact": "critical",
+                "message": "Element has an alt attribute",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "role-presentation",
+                "impact": "minor",
+                "message": "Element's default semantics were overriden with role=\"presentation\"",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img class=\"title-image\" src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/leadership-banner.jpg\" alt=\"\" role=\"presentation\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".title-image"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-alt",
+                "impact": "critical",
+                "message": "Element has an alt attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/jason-wenk-high-res.jpg\" alt=\"Jason Wenk\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "img[alt=\"Jason\\ Wenk\"]"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-alt",
+                "impact": "critical",
+                "message": "Element has an alt attribute",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "role-presentation",
+                "impact": "minor",
+                "message": "Element's default semantics were overriden with role=\"presentation\"",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/quote-icon.svg\" alt=\"\" class=\"quote-icon aos-init aos-animate\" data-aos=\"fade-up\" role=\"presentation\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".quote-icon"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-alt",
+                "impact": "critical",
+                "message": "Element has an alt attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<img src=\"https://retirementwealthacademy.com/wp-content/themes/retirement-wealth-academy/images/wes-rick-hi-res.jpg\" alt=\"Rick and Wes White\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "img[alt=\"Rick\\ and\\ Wes\\ White\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensure button and link text is not repeated as image alternative",
+        "help": "Text of buttons and links should not be repeated in the image alternative",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/image-redundant-alt?application=webdriverjs",
+        "id": "image-redundant-alt",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [],
+            "html": "<a class=\"skip-link screen-reader-text\" href=\"#content\">Skip to content</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".skip-link"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<a id=\"logo-link\" href=\"https://retirementwealthacademy.com/\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "#logo-link"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<button class=\"mobile-menu-icon\" id=\"menu-toggle\">\n        <span class=\"open-icon\">Menu</span>\n        <span class=\"close-icon\"><span class=\"sr-only\">Close Menu</span></span>\n      </button>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "#menu-toggle"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"text-subtitle aos-init aos-animate\" data-aos=\"fade-up\">We are a nationwide cooperative of financial professionals with a passion for educating pre-retirees and those in retirement.</p>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".text-subtitle.aos-animate[data-aos=\"fade-up\"]"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"text-paragraph aos-init aos-animate\" data-aos=\"fade-up\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".text-paragraph.aos-animate[data-aos=\"fade-up\"]"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<a class=\"scroll-down aos-init aos-animate\" href=\"#meet-founders\" data-aos=\"fade-up\">Meet our founders</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".scroll-down"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"text-subtitle\">Jason began his career on Wall Street as one of the youngest advisors at Morgan Stanley. After seeing first-hand how broken the financial industry had become, he founded his own financial advisory firm in 2005.</p>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "#meet-founders > section > .text-subtitle"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"text-paragraph\">He also pioneered algorithm-based portfolios crafted with proven academic formulas. This approach offered previously exclusive portfolio strategies to a broader range of investors.</p>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "#meet-founders > section > .text-paragraph:nth-child(3)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"text-paragraph\">The portfolios he developed later became known as FormulaFolios, now offered through his firm FormulaFolio Investments. Today he oversees the management of over $2.3 billion as the CEO and Chief Investment Strategist.</p>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "#meet-founders > section > .text-paragraph:nth-child(4)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"attribution aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"150\">\n        —Jason Wenk, Chairman\n      </p>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".attribution"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"text-subtitle\">Rick and Wes formed The Triangle Adult Learning Center after seeing the critical state of many investors nearing retirement. The center develops comprehensive courses geared toward retirement planning and investing.</p>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".about-rick-wes-white > section > .text-subtitle"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"text-paragraph\">As the owners of Patriot Wealth, Rick and Wes have helped hundreds of individuals find a comfortable retirement in their home state of North Carolina.</p>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".about-rick-wes-white > section > .text-paragraph:nth-child(3)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p class=\"text-paragraph\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".about-rick-wes-white > section > .text-paragraph:nth-child(4)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<a href=\"https://retirementwealthacademy.com/courses\">Find a class near you</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".find-a-class > a"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<p>© 2017-2018 Retirement Wealth Advisors Inc.</p>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "div[data-aos-anchor-placement=\"top-bottom\"] > p"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<a href=\"https://retirementwealthacademy.com/disclaimer\">Disclaimer</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "a:nth-child(2)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [],
+            "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://formulafolios.s3.amazonaws.com/documents/compliance-resources/disclosure-documents/FormulaFolios%20-%20Privacy%20Policy.pdf\">Privacy Policy</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "duplicate-img-label",
+                "impact": "minor",
+                "message": "Element does not duplicate existing text in <img> alt text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "a[target=\"_blank\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.text-alternatives",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "The banner landmark should not be contained in another landmark",
+        "help": "Banner landmark must be at top level",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/landmark-banner-is-top-level?application=webdriverjs",
+        "id": "landmark-banner-is-top-level",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "role": "banner"
+                },
+                "id": "landmark-is-top-level",
+                "impact": "moderate",
+                "message": "The banner landmark is at the top level.",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<header id=\"masthead\" class=\"site-header\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#masthead"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "The contentinfo landmark should not be contained in another landmark",
+        "help": "Contentinfo landmark must be at top level",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/landmark-contentinfo-is-top-level?application=webdriverjs",
+        "id": "landmark-contentinfo-is-top-level",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "role": "contentinfo"
+                },
+                "id": "landmark-is-top-level",
+                "impact": "moderate",
+                "message": "The contentinfo landmark is at the top level.",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<footer>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "footer"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "The main landmark should not be contained in another landmark",
+        "help": "Main landmark is not at top level",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/landmark-main-is-top-level?application=webdriverjs",
+        "id": "landmark-main-is-top-level",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "role": "main"
+                },
+                "id": "landmark-is-top-level",
+                "impact": "moderate",
+                "message": "The main landmark is at the top level.",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<main id=\"main\" class=\"site-main\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#main"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures the document has no more than one banner landmark",
+        "help": "Document contain at most one banner landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/landmark-no-duplicate-banner?application=webdriverjs",
+        "id": "landmark-no-duplicate-banner",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "page-no-duplicate-banner",
+                "impact": "moderate",
+                "message": "Document has no more than one banner landmark",
+                "relatedNodes": [
+                  {
+                    "html": "<header id=\"masthead\" class=\"site-header nav-show\">",
+                    "target": [
+                      "#masthead"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures the document has no more than one contentinfo landmark",
+        "help": "Document contain at most one contentinfo landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/landmark-no-duplicate-contentinfo?application=webdriverjs",
+        "id": "landmark-no-duplicate-contentinfo",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "page-no-duplicate-contentinfo",
+                "impact": "moderate",
+                "message": "Document has no more than one contentinfo landmark",
+                "relatedNodes": [
+                  {
+                    "html": "<footer>",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures a navigation point to the primary content of the page. If the page contains iframes, each iframe should contain either no main landmarks or just one",
+        "help": "Page must contain one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/landmark-one-main?application=webdriverjs",
+        "id": "landmark-one-main",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [
+              {
+                "data": null,
+                "id": "page-has-main",
+                "impact": "moderate",
+                "message": "Page has at least one main landmark",
+                "relatedNodes": [
+                  {
+                    "html": "<main id=\"main\" class=\"site-main\">",
+                    "target": [
+                      "#main"
+                    ]
+                  }
+                ]
+              },
+              {
+                "data": null,
+                "id": "page-no-duplicate-main",
+                "impact": "moderate",
+                "message": "Document has no more than one main landmark",
+                "relatedNodes": [
+                  {
+                    "html": "<main id=\"main\" class=\"site-main\">",
+                    "target": [
+                      "#main"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "any": [],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures links have discernible text",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/link-name?application=webdriverjs",
+        "id": "link-name",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a class=\"skip-link screen-reader-text\" href=\"#content\">Skip to content</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".skip-link"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a id=\"logo-link\" href=\"https://retirementwealthacademy.com/\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "#logo-link"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a class=\"scroll-down aos-init aos-animate\" href=\"#meet-founders\" data-aos=\"fade-up\">Meet our founders</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".scroll-down"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a href=\"https://retirementwealthacademy.com/courses\">Find a class near you</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              ".find-a-class > a"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a href=\"https://retirementwealthacademy.com/disclaimer\">Disclaimer</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "a:nth-child(2)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-visible-text",
+                "impact": "minor",
+                "message": "Element has text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://formulafolios.s3.amazonaws.com/documents/compliance-resources/disclosure-documents/FormulaFolios%20-%20Privacy%20Policy.pdf\">Privacy Policy</a>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "a[target=\"_blank\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures <meta name=\"viewport\"> can scale a significant amount",
+        "help": "Users should be able to zoom and scale the text up to 500%",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/meta-viewport-large?application=webdriverjs",
+        "id": "meta-viewport-large",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "meta-viewport-large",
+                "impact": "minor",
+                "message": "<meta> tag does not prevent significant zooming on mobile devices",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/meta-viewport?application=webdriverjs",
+        "id": "meta-viewport",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "meta-viewport",
+                "impact": "critical",
+                "message": "<meta> tag does not disable zooming on mobile devices",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag2aa",
+          "wcag144"
+        ]
+      },
+      {
+        "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+        "help": "Page must contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/page-has-heading-one?application=webdriverjs",
+        "id": "page-has-heading-one",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [
+              {
+                "data": null,
+                "id": "page-has-heading-one",
+                "impact": "moderate",
+                "message": "Page has at least one level-one heading",
+                "relatedNodes": [
+                  {
+                    "html": "<h1 class=\"entry-title\">Our <br>Leadership</h1>",
+                    "target": [
+                      "h1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "any": [],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensures all content is contained within a landmark region",
+        "help": "Content should be contained in a landmark region",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/region?application=webdriverjs",
+        "id": "region",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "region",
+                "impact": "moderate",
+                "message": "Content contained by ARIA landmark",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<html lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" class=\"deque-axe-is-ready\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      },
+      {
+        "description": "Ensure all skip links have a focusable target",
+        "help": "The skip-link target should exist and be focusable",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/skip-link?application=webdriverjs",
+        "id": "skip-link",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "skip-link",
+                "impact": "moderate",
+                "message": "Skip link target exists",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a class=\"skip-link screen-reader-text\" href=\"#content\">Skip to content</a>",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".skip-link"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "skip-link",
+                "impact": "moderate",
+                "message": "Skip link target exists",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<a class=\"scroll-down aos-init aos-animate\" href=\"#meet-founders\" data-aos=\"fade-up\">Meet our founders</a>",
+            "impact": null,
+            "none": [],
+            "target": [
+              ".scroll-down"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    ],
+    "timestamp": "2018-08-14T22:33:54.451Z",
+    "url": "https://retirementwealthacademy.com/our-leadership/",
+    "violations": [
+      {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/color-contrast?application=webdriverjs",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.69,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#858585",
+                  "fontSize": "10.2pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.69 (foreground color: #858585, background color: #ffffff, font size: 10.2pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                "relatedNodes": []
+              }
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.69 (foreground color: #858585, background color: #ffffff, font size: 10.2pt, font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<p>© 2017-2018 Retirement Wealth Advisors Inc.</p>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "div[data-aos-anchor-placement=\"top-bottom\"] > p"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 1.94,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#bababa",
+                  "fontSize": "8.4pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 1.94 (foreground color: #bababa, background color: #ffffff, font size: 8.4pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                "relatedNodes": []
+              }
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.94 (foreground color: #bababa, background color: #ffffff, font size: 8.4pt, font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<a href=\"https://retirementwealthacademy.com/disclaimer\">Disclaimer</a>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "a:nth-child(2)"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 1.94,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#bababa",
+                  "fontSize": "8.4pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 1.94 (foreground color: #bababa, background color: #ffffff, font size: 8.4pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                "relatedNodes": []
+              }
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.94 (foreground color: #bababa, background color: #ffffff, font size: 8.4pt, font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://formulafolios.s3.amazonaws.com/documents/compliance-resources/disclosure-documents/FormulaFolios%20-%20Privacy%20Policy.pdf\">Privacy Policy</a>",
+            "impact": "serious",
+            "none": [],
+            "target": [
+              "a[target=\"_blank\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    ]
+  }
+]
